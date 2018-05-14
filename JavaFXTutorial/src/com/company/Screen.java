@@ -29,9 +29,11 @@ public class Screen {
         layout.getChildren().add(button);
         showScene();
     }
+
     public void setTitle(String title){
         this.stage.setTitle(title);
     }
+
     public String getTitle(){
         return this.stage.getTitle();
     }
