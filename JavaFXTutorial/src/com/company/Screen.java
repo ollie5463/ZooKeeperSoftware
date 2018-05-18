@@ -2,7 +2,6 @@ package com.company;
 
 import javafx.collections.ObservableList;
 import javafx.geometry.Orientation;
-import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Node;
 import javafx.scene.Scene;
@@ -11,16 +10,11 @@ import javafx.scene.control.ScrollBar;
 import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.StackPane;
-import javafx.scene.paint.Color;
-import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class Screen {
+public class Screen{
 
     private Stage stage;
     private Group group;
@@ -29,7 +23,7 @@ public class Screen {
     private ArrayList<String> listOfTabs = new ArrayList<>();
 
 
-    public Screen(int height, int width){
+    public  Screen(int height, int width){
         Stage stage = new Stage();
         this.stage = stage;
 
